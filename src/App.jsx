@@ -3,13 +3,15 @@ import React from "react";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import logo from "./assets/LogoNasa.png"
+import Figure from "./components/Figure/Figure";
 
 const App = () => {
   const today = new Date(Date.now()).toISOString().slice(0, 10);
   const [apod, setApod] = useState({});
   const [date, setDate] = useState(today);
   const NASA_URL = "https://api.nasa.gov/";
-  const NASA_API_KEY = "b89a08d0-5077-4a45-a158-88e542a2011d";
+  const NASA_API_KEY = "TyIr0Wtz79BNzZrV10j4mwCn2fFZ1Vsq12esbecr";
 
   useEffect(() => {
     const getApod = async () => {
