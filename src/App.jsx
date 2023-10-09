@@ -33,7 +33,7 @@ const App = () => {
         NASA API <img src={logo} className="logo" alt="NASA LOGO" />
       </h2>
       <h1 >Astronomy Picture of the Day</h1>
-      <input type="date" id="photo-date" onChange={handleInput} />
+      <input className="calendario" type="date" id="photo-date" onChange={handleInput} />
       {date > today ? (
         <h2>Please choose a previous date</h2>
       ) : (

@@ -12,7 +12,7 @@ const Figure = ({ data }) => {
           <button aria-label="Resize" class="resize"></button>
         </div>
         <div class="details-bar">
-          <span>{data.date}</span>
+          <span >{data.date}</span>
           <span>{data.copyright}</span>
         </div>
         <div class="window-pane">{data.explanation}</div>
