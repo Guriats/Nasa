@@ -1,0 +1,16 @@
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App{
+    padding: 50px;
+}
+
+
+
+
+
+

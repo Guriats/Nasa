@@ -1,7 +1,10 @@
+
+import "./Figure.css"
+
 const Figure = ({ data }) => {
   return (
-    <figure>
-      <img src={data.url} alt={data.title} />
+    <figure className="textos">
+      <img className="imagen" src={data.url} alt={data.title} />
       <div class="window">
         <div class="title-bar">
           <button aria-label="Close" class="close"></button>
